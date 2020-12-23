@@ -1,0 +1,103 @@
+body {
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  padding: 15px;
+}
+
+button {
+  font-family: "Lato", sans-serif;
+}
+
+.orange {
+  background-color: #b77273;
+  color: #1d2133;
+  font-weight: bold;
+}
+
+.purple {
+  background-color: #383b4d;
+  color: #e0d9ba;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: #2d3e41;
+  color: #bebebe;
+  font-weight: bold;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.post {
+  font-weight: bold;
+}
+
+.comment {
+  font-weight: bold;
+}
+
+.paragraph-text {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.lead {
+  font-size: 25px;
+  color: #dad4d4;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 45px;
+}
+
+.navbar {
+  background-color: #2b3952
+}
+
+.navbar a {
+  color: #d3cfbc;
+  font-family: 'Raleway', sans-serif;
+}
+.btn .yellow {
+  background-color: white;
+  color: black;
+}
+h1 {
+  color: #c69d9d;
+}
+
+h2 {
+  color: #b7bdd8
+}
+
+h4 {
+  color: #2b3252;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+  color: #d6ded4;
+}
+
+.text-muted {
+  font-size: 15px;
+}

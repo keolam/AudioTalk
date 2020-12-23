@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include ../static/partials/head.ejs %>
+</head>
+
+<body>
+
+    <% include ../static/partials/navbar.ejs %>
+
+    <main class="container">
+
+        <% include ../static/partials/messages.ejs %>
+
+        <h1>My Profile</h1>
+        <hr>
+
+        <h2>Recent Posts <i class="far fa-address-card"></i></h2>
+
+        <ul>
+
+            <% if(posts) { %>
+            <% posts.forEach((post) => { %>
+            <li>
+                <a href="/topics/<%= post.topicId %>/posts/<%= post.id %>">
+                    <%= post.title %>
+                </a>
+            </li>
+            <% }) %>
+            <% } %>
+        </ul>
+        <hr>
+
+        <h2>Recent Comments <i class="far fa-comment"></i></h2>
+
+        <ul class="list-unstyled">
+
+            <% if(comments) { %>
+            <% comments.forEach((comment) => { %>
+
+            <li>
+                <span class="post">Post: </span>
+                <a href="/topics/<%= comment.Post.topicId %>/posts/<%= comment.Post.id %>">
+                    <%= comment.Post.title %>
+                </a>
+                <br><span class="comment">Comment: </span><%= comment.body %>
+
+            </li>
+            <hr>
+            <% }) %>
+            <% } %>
+        </ul>
+
+        <hr>
+
+        <h2>Favorite Posts <i class="far fa-heart"></i></h2>
+
+        <ul>
+
+            <% if(favorites) { %>
+            <% favorites.forEach((favorite) => { %>
+            <li>
+                <a href="/topics/<%= favorite.postId %>/posts/<%= favorite.postId %>">
+                    <%= favorite.Post.title %>
+                </a>
+            </li>
+            <% }) %>
+            <% } %>
+        </ul>
+    </main>
+
+    <% include ../static/partials/baseScripts.ejs %>
+
+</body>
+
+</html>
