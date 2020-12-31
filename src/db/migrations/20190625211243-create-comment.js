@@ -43,11 +43,11 @@ module.exports = {
       },
       createdAt: {
         allowNull: false,
-        type: today.toLocaleDateString("en-US", options)
+        type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: today.toLocaleDateString("en-US", options)
+        type: Sequelize.DATE
       }
     });
   },
@@ -55,3 +55,5 @@ module.exports = {
     return queryInterface.dropTable("Comments");
   }
 };
+
+/*type: today.toLocaleDateString("en-US", options)*/
