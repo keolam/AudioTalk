@@ -2,6 +2,16 @@ body {
   padding-top: 100px;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  background-image: url(../images/Consolefaders.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: 1600px 1000px;
+*/
 }
 
 .card {
@@ -13,21 +23,24 @@ button {
 }
 
 .orange {
-  background-color: #b77273;
+  background-color: #989e66;
   color: #1d2133;
   font-weight: bold;
+  opacity: 88%;
 }
 
 .purple {
   background-color: #383b4d;
   color: #e0d9ba;
   font-weight: bold;
+  opacity: 92%;
 }
 
 .yellow {
-  background-color: #2d3e41;
+  background-color:#131219;
   color: #bebebe;
   font-weight: bold;
+  opacity: 80%;
 }
 
 .heading {
@@ -54,7 +67,7 @@ ul {
 
 .lead {
   font-size: 25px;
-  color: #dad4d4;
+  color: #feffdc;
 }
 
 .card-title {
@@ -74,7 +87,7 @@ ul {
 }
 
 .navbar a {
-  color: #d3cfbc;
+  color: #e6e6d9;
   font-family: 'Raleway', sans-serif;
 }
 .btn .yellow {
@@ -82,7 +95,7 @@ ul {
   color: black;
 }
 h1 {
-  color: #c69d9d;
+  color: #ff7ef0;
 }
 
 h2 {
@@ -96,8 +109,24 @@ h4 {
 
 h6 {
   color: #d6ded4;
+  padding: 16px;
+  background-color: #32383e;
+  opacity: 90%;
 }
 
 .text-muted {
   font-size: 15px;
+}
+.list-group-item {
+  opacity: 90%
+}
+
+.comment-box {
+  background-color: #32383e;
+  padding: 0 16px;
+  margin: 14px 0;
+  opacity: 90%;
+}
+.text-center {
+  margin-bottom: 24px;
 }
