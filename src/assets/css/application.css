@@ -30,8 +30,8 @@ button {
 }
 
 .purple {
-  background-color: #383b4d;
-  color: #e0d9ba;
+  background-color: #1c2121;
+  color: #eaf7f6;
   font-weight: bold;
   opacity: 92%;
 }
@@ -66,8 +66,8 @@ ul {
 }
 
 .lead {
-  font-size: 25px;
-  color: #feffdc;
+  font-size: 24px;
+  color: #adc6e6;
 }
 
 .card-title {
@@ -83,11 +83,11 @@ ul {
 }
 
 .navbar {
-  background-color: #2b3952
+  background-color: #1a222f;
 }
 
 .navbar a {
-  color: #e6e6d9;
+  color: #9dccfd;
   font-family: 'Raleway', sans-serif;
 }
 .btn .yellow {
