@@ -1,3 +1,7 @@
 /node_modules
 +.env
 .env
+audiotalk_online.crt
+server.csr
+server.key
+server.pass.key
