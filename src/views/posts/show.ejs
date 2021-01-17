@@ -27,7 +27,7 @@
 		<% if(currentUser) { %>
 		<% include ../favorites/favoriting.ejs %>
 		<% } %>
-		<p><%= post.body %></p>
+		<p class="main-subject" style="width:50%"><strong><%= post.body %></strong></p>
 
 		<section id="comment-form">
 
